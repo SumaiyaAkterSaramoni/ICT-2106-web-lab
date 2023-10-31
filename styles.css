@@ -1,0 +1,84 @@
+h1{
+  background-color: rgb(119, 0, 255);
+  font-family:'Times New Roman', Times, serif ;
+}
+:a:link{
+  color: aqua;
+}
+a:visited{
+  color: blueviolet;
+}
+a:hover{
+  color: brown;
+}
+body{
+  background-image: url("Images/ju logo.png");
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-block-width: 30px;
+  }
+  tr:nth-child(even) {
+    background-color: rgba(150, 212, 212, 0.4);
+  }
+  
+  th:nth-child(even),td:nth-child(even) {
+    background-color: rgba(150, 212, 212, 0.4);
+  }
+  .main{
+
+    border: 1px solid red;
+color:red;
+margin: 2px;
+padding: 6px;
+
+
+  }
+  #demo{
+
+border-color: brown;
+color: rgb(255, 136, 0);
+margin: 2px;
+padding: 6px;
+
+  }
+  li{
+
+    display: inline-block;
+    color: blue;
+    text-align-last:right ;
+  }
+  .para{
+    background-color: darkgreen;
+    color: bisque;
+    margin: 10px;
+    padding: 10px;
+    opacity: 0.5;
+
+
+  }
+  #my-div{
+    background-color: rebeccapurple;
+    color: black;
+    margin: 50px;
+    padding: 100px;
+
+
+  }
+  .text{
+    color: aqua;
+    opacity: 0.1;
+  }
+  body {
+    background-size: cover;
+    /* background-image: url("/Images/download.jpg"); */
+    background-repeat: no-repeat; 
+    background-position: top;
+    background-attachment: fixed;
+    font-size: xx-large;
+  }
+  /* div > p {
+    background-color: yellow;
+  } */
+  
